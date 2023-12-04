@@ -1,0 +1,101 @@
+/* Membuat background gradient */
+body {
+          background: linear-gradient(to bottom, rgb(171, 5, 5), rgb(171, 5, 5) 50%);
+          height: 100vh;
+          margin: 0;
+        }
+        
+        /* Membuat form login */
+        .login-form {
+          position: relative;
+          width: 40%; /* Menentukan lebar form */
+          height: 300px;
+          margin: auto;
+          margin-top: 100px;
+        
+        }
+        
+        /* Membuat judul form */
+        .login-form h1 {
+          text-align: center;
+          font-family: Arial, sans-serif;
+          font-size: 60px;
+          margin-right: 12%;
+          margin-bottom: -10%;
+          color: #fff;
+        }
+        
+        .login-form h2 {
+          text-align: center;
+          font-family: Arial, sans-serif;
+          font-size: 60px;
+          margin-right: -4%;
+          color: #fff;
+        }
+        
+        .login-form h3 {
+          text-align: center;
+          font-family: Arial, sans-serif;
+          font-size: 35px;
+          color: #fff;
+          margin-right: 60%;
+        }
+        
+        /* Membuat input field */
+        .login-form input {
+         display: block;
+         border: 2px solid rgb(255, 255, 255);
+         width: 80%;
+         margin: auto;
+         margin-top: 20px;
+         padding: 10px;
+         border-radius: 14px;
+         color: white;
+         background-color: transparent;
+        }
+        
+        /* Membuat tombol sign in */
+        .login-form button {
+         display: block;
+         color: white;
+         background-color: rgb(8, 8, 119);
+         width: 80%;
+         margin: auto;
+         margin-top: 20px;
+         padding: 10px;
+         border-radius: 14px;
+        }
+        
+        /* Membuat link sign up */
+        .login-form a {
+         display: block;
+         text-align: center;
+         font-family: Arial, sans-serif;
+         font-size: 14px;
+         color: white; 
+         text-decoration: none; /* Menghilangkan garis bawah */
+        }
+        
+        .sign-up p {
+          color: white;
+          font-family: 'Times New Roman', Times, serif;
+          margin-left: 25%;
+        }
+        .sign-up a {
+          color: rgb(66, 99, 228);
+          font-family: 'Times New Roman', Times, serif;
+          margin-right: 1%;
+          margin-top: -4%;
+        }
+        
+        /* Mengatur posisi gambar dan form dengan float */
+        img {
+         float: left; /* Mengapung ke kiri */
+         width: 50%; /* Menentukan lebar gambar */
+         height: 100%;
+        
+        }
+        
+        .login-form {
+         float: right; /* Mengapung ke kanan */
+        }

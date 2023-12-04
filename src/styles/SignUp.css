@@ -1,0 +1,83 @@
+* {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        
+        .container {
+          display: flex;
+          height: 100vh;
+          background: linear-gradient(to bottom, rgb(171, 5, 5), rgb(171, 5, 5) 50%);
+        }
+        
+        .form {
+          width: 50%;
+          padding: 40px;
+          color: white;
+        }
+        
+        .form h1 {
+          font-family: Arial, sans-serif;
+          font-size: 48px;
+          text-align: center;
+          margin-right: 5%;
+        }
+        
+        .form h2 {
+          font-family: Arial, sans-serif;
+          font-size: 48px;
+          text-align: center;
+          margin-left: 5%;
+        }
+        
+        .form h3 {
+          font-family: Arial, sans-serif;
+          font-size: 25px;
+          text-align: center;
+          margin-right: 58%;
+          margin-top: 5%; 
+        }
+        
+        .form input {
+         display: block;
+         border: 2px solid rgb(255, 255, 255);
+         width: 80%;
+         margin: auto;
+         margin-top: 20px;
+         padding: 10px;
+         border-radius: 14px;
+         color: white;
+         background-color: transparent;
+        }
+        
+        .form button {
+          width: 80%;
+          margin: 10px auto;
+          display: block;
+          padding: 10px;
+          border: none;
+          outline: none;
+          border-radius: 14px;
+          background: rgb(8, 8, 119);
+          color: white;
+        }
+        
+        .form p {
+          color: rgb(255, 255, 255);
+          margin-left: 34%;
+        }
+        
+        .form a {
+          color: rgb(66, 99, 228);
+        }
+        
+        .image img {
+         float: left;
+         width: 100%;
+         height: 100%;
+         margin-left: 10%;
+        }
+        
+        .login-form {
+          float: right; /* Mengapung ke kanan */
+         }
